@@ -1,0 +1,31 @@
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-60 {
+  gap: 60px;
+}
+
+.mg-top-50 {
+  margin-top: 50px;
+}
+
+.mg-rgt-130 {
+  margin-right: 130px;
+}
+
+.mg-rgt-100 {
+  margin-right: 100px;
+}

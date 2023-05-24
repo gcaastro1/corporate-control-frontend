@@ -1,0 +1,52 @@
+.img-home {
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.height-list {
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.width-form {
+  width: 500px;
+  max-width: 100%;
+}
+
+.width-card {
+  width: 400px;
+  max-width: 100%;
+}
+
+.width-user {
+  width: 270px;
+  max-width: 100%;
+}
+
+.width-block {
+  width: 100%;
+}
+
+.width-fit {
+  width: fit-content;
+}
+
+.height-fit {
+  height: fit-content;
+}
+
+.maxh-400 {
+  max-height: 400px;
+}
+
+.bg-img {
+  background-image: url(../../src/img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}

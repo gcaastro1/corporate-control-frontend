@@ -1,0 +1,52 @@
+header {
+  border-bottom: 1px solid var(--grey-600);
+}
+
+.nav-list {
+  position: fixed;
+  width: 100%;
+  top: 62px;
+  left: 0;
+  background-color: var(--grey-800);
+  border-top: 1px solid var(--grey-600);
+  border-bottom: 1px solid var(--grey-600);
+  padding: 16px;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.close-nav {
+  animation: closeMenu 1s ease;
+  visibility: visible;
+}
+
+.show-nav {
+  visibility: visible;
+  animation: showMenu 1s ease;
+}
+
+.change-index {
+  z-index: 1;
+}
+
+.fa-bars, .fa-xmark {
+  animation: showIcon 1s ease;
+}
+
+
+.remove-icon {
+  animation: removeIcon 1s ease;
+}
+
+.down-main {
+  animation: downMain 1s ease;
+}
+
+.up-main {
+  animation: upMain 1s ease;
+}
+

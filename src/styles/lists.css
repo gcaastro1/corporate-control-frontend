@@ -1,0 +1,11 @@
+#list_sectors {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+#list_container {
+  height: 250px;
+}

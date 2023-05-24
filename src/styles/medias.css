@@ -1,0 +1,43 @@
+
+@media (min-width: 900px){
+  /* Home Image Section Display */
+
+  .img-section {
+    display: inline;
+  }
+
+  /* Menu Navbar */
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-list {
+    padding: 0;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    visibility: visible;
+    z-index: 0;
+  }
+
+  /* Buttons */
+
+  .btn-menu {
+    width: 140px;
+  }
+
+  /* Lists */
+
+  #list_sectors {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 100%;
+  }
+
+  #list_container {
+    height: 450px;
+  }
+}

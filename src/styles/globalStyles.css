@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --brand-100:   #4200FF;
+  --brand-50:    rgba(66, 0, 255, 0.5);
+  --grey-100:    #212529;
+  --grey-200:    #495057;
+  --grey-300:    #5B636C;
+  --grey-400:    #808387;
+  --grey-500:    #dee2e6;
+  --grey-600:    #e9ecef;
+  --grey-700:    #f1f3f5;
+  --grey-800:    #f8f9fa;
+  --alert-100:   #CE4646;
+  --success-100: #4BA036;
+  --size-1: 2.25rem;
+  --size-2: 1.875rem;
+  --size-3: 1.25rem;
+  --size-4: 1rem;
+  --radius-span: 20px;
+}
+
+body {
+  background-color: var(--grey-800);
+  font-family: 'Inter', sans-serif;
+  color: var(--color-grey-100);
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.radius-full {
+  border-radius: var(--radius-span);
+}
+
+.pointer {
+  cursor: pointer;
+}

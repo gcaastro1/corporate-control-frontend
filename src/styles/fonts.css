@@ -1,0 +1,35 @@
+.font1 {
+  font-size: var(--size-1);
+  line-height: 150%;
+}
+
+.font2 {
+  font-size: var(--size-2);
+  line-height: 150%;
+}
+
+.font3 {
+  font-size: var(--size-3);
+  line-height: 150%;
+}
+
+.font4 {
+  font-size: var(--size-4);
+  line-height: 150%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.txt-center {
+  text-align: center;
+}

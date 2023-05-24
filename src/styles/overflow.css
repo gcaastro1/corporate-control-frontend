@@ -1,0 +1,21 @@
+.overflow-x {
+  overflow-x: auto;
+}
+
+.overflow-y {
+  overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: var(--grey-600);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-100);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--grey-600);
+}

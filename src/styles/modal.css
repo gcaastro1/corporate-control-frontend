@@ -1,0 +1,28 @@
+.modal-bg {
+  background-color: rgba(70, 35, 167, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-container {
+  background-color: var(--grey-800);
+  width: fit-content;
+  max-width: 800px;
+  position: relative;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.modal-close {
+  position: absolute;
+  padding: 5px 10px;
+  top: 8px;
+  right: 15px;
+  cursor: pointer;
+}

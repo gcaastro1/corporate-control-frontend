@@ -1,0 +1,72 @@
+@keyframes showMenu {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes closeMenu {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes downMain {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+@keyframes upMain {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes showIcon {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes removeIcon {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes toasIt {
+  0% {
+    right: -230px;
+    bottom: 20px;
+  }
+  25% {
+    right: 20px;
+    bottom: 20px;
+  }
+  50% {
+    right: 20px;
+    bottom: 20px;
+  }
+  100% {
+    right: -230px;
+    bottom: 20px;
+  }
+}

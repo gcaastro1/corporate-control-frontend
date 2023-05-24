@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/src/img/icon/logo.ico"
+      type="image/x-icon"
+    />
+    <title>Kenzie Empresas - Admin</title>
+
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="/src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/src/styles/animation.css" />
+    <link rel="stylesheet" href="/src/styles/display.css" />
+    <link rel="stylesheet" href="/src/styles/padding.css" />
+    <link rel="stylesheet" href="/src/styles/spacing.css" />
+    <link rel="stylesheet" href="/src/styles/buttons.css" />
+    <link rel="stylesheet" href="/src/styles/colors.css" />
+    <link rel="stylesheet" href="/src/styles/fonts.css" />
+    <link rel="stylesheet" href="/src/styles/navbar.css" />
+    <link rel="stylesheet" href="/src/styles/inputs.css" />
+    <link rel="stylesheet" href="/src/styles/sizes.css" />
+    <link rel="stylesheet" href="/src/styles/lists.css" />
+    <link rel="stylesheet" href="/src/styles/overflow.css" />
+    <link rel="stylesheet" href="/src/styles/modal.css" />
+    <link rel="stylesheet" href="/src/styles/toastfy.css" />
+    <link rel="stylesheet" href="/src/styles/medias.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/36c8b92452.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="bg-grey-8 px-20">
+      <nav class="container flex row just-btw items-center py-16">
+        <div class="flex row items-center gap-12">
+          <i class="fa-solid fa-circle font3 txt-secondary"></i>
+          <h3 class="font3">Kenzie Empresas</h3>
+        </div>
+        <div class="nav-menu">
+          <button class="btn menu-icon" id="menu_button">
+            <i class="fa-solid fa-bars txt-grey-1 font3" id="menu_icon"></i>
+          </button>
+          <ul class="nav-list flex row gap-12">
+            <li class="width-block">
+              <button
+                class="btn btn-menu btn-outline txt-primary py-12 bold font4"
+                id="logout_button"
+              >
+                Logout
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container flex col gap-20 py-40">
+      <section class="width-block flex col gap-20">
+        <div class="flex row just-btw items-center">
+          <h2 class="font2">Departamentos</h2>
+          <select
+            name="companies"
+            id="companies_select"
+            class="txt-grey-1 bg-grey-8 height-fit px-25 radius-full font4"
+          >
+            <option selected disabled>Selecionar empresa</option>
+            <option value="">Todas</option>
+          </select>
+          <button
+            class="btn btn-menu btn-primary txt-grey-8 py-12 bold font4"
+            id="new_department"
+          >
+            <i class="fa-solid fa-plus txt-grey-8 font4"></i>
+            Criar
+          </button>
+        </div>
+        <ul
+          class="py-30 px-50 bg-grey-7 flex row just-btw wrap gap-20 height-list"
+          id="companies_list"
+        ></ul>
+      </section>
+      <section class="width-block flex col items-center gap-20">
+        <h2 class="font2">Usuários Cadastrados</h2>
+        <ul
+          class="py-30 px-50 bg-grey-7 flex row just-btw wrap gap-20 height-list width-block"
+          id="users_list"
+        ></ul>
+      </section>
+
+    </main>
+    <script src="/src/scripts/admDash.js" type="module"></script>
+  </body>
+</html>

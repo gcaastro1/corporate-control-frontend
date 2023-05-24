@@ -1,0 +1,62 @@
+/* Font Colors */
+
+.txt-grey-1 {
+  color: var(--grey-100);
+}
+
+.txt-grey-8 {
+  color: var(--grey-800);
+}
+
+.txt-primary {
+  color: var(--brand-100);
+}
+
+.txt-secondary {
+  color: var(--brand-50);
+}
+
+/* Background Colors */
+
+.bg-primary {
+  background-color: var(--brand-100);
+}
+
+.bg-grey-6 {
+  background-color: var(--grey-600);
+}
+
+.bg-grey-7 {
+  background-color: var(--grey-700);
+}
+
+.bg-grey-8 {
+  background-color: var(--grey-800);
+}
+
+.bg-alert{
+  background-color: var(--alert-100);
+}
+
+.bg-success {
+  background-color: var(--success-100);
+}
+
+
+/* Border colors */
+
+.border-bottom-primary {
+  border-bottom: 1px solid var(--brand-100);
+}
+
+.border-full-primary {
+  border: 1px solid var(--brand-100);
+}
+
+.border-full-grey {
+  border: 1px solid var(--grey-500);
+}
+
+.out-none {
+  outline: none;
+}
